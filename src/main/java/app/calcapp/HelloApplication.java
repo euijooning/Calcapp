@@ -14,6 +14,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("design.fxml")); // Assuming "design.fxml" is in the correct package
         stage.setScene(new Scene(root));
+        stage.setTitle("Basic 계산기");
         stage.show();
     }
 
